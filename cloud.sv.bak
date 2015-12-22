@@ -1,0 +1,15 @@
+module cloud(
+	input reset, frame_clk,
+	output[9:0] cloudX, cloudY, cloudW, cloudH,
+);
+
+logic [9:0] cloud_X_Pos, cloud_X_Motion, cloud_Y_Pos, cloud_Y_Motion, cloud_Width, cloud_Height;
+parameter [9:0] cloud_Y_Center=40;  // Center position on the Y axis
+parameter [9:0] cloud_X_Center=100;  // Center position on the Y axis
+parameter [9:0] cloud_X_Min=0;       // Leftmost point on the X axis
+parameter [9:0] cloud_X_Max=639;     // Rightmost point on the X axis
+parameter [9:0] cloud_Y_Min=0;       // Topmost point on the Y axis
+parameter [9:0] cloud_Y_Max=479;     // Bottommost point on the Y axis
+ 
+parameter [9:0] cloud_X_Step=-6;      // Step size on the X axis
+parameter [9:0] cloud_Y_Step=0;      // Step size on the Y axis

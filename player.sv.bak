@@ -1,0 +1,7 @@
+module player(
+input Reset, frame_clk,
+input[7:0] keycode,
+output logic [9:0] player_h, player_w, player_x, player_y
+);
+
+logic 

@@ -1,0 +1,175 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=F:\quartus2\Lab8_provided --output-directory=F:\quartus2\Lab8_provided\nios_system --report-file=bsf:F:\quartus2\Lab8_provided\nios_system\nios_system.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=F:\quartus2\Lab8_provided\nios_system.qsys
+Progress: Loading Lab8_provided/nios_system.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 14.0]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 14.0]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 14.0]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding sdram [altera_avalon_new_sdram_controller 14.0]
+Progress: Parameterizing module sdram
+Progress: Adding sdram_pll [altpll 14.0]
+Progress: Parameterizing module sdram_pll
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 14.0]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 14.0]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding keycode0 [altera_avalon_pio 14.0]
+Progress: Parameterizing module keycode0
+Progress: Adding otg_hpi_cs [altera_avalon_pio 14.0]
+Progress: Parameterizing module otg_hpi_cs
+Progress: Adding otg_hpi_address [altera_avalon_pio 14.0]
+Progress: Parameterizing module otg_hpi_address
+Progress: Adding otg_hpi_data [altera_avalon_pio 14.0]
+Progress: Parameterizing module otg_hpi_data
+Progress: Adding otg_hpi_r [altera_avalon_pio 14.0]
+Progress: Parameterizing module otg_hpi_r
+Progress: Adding otg_hpi_w [altera_avalon_pio 14.0]
+Progress: Parameterizing module otg_hpi_w
+Progress: Adding keycode1 [altera_avalon_pio 14.0]
+Progress: Parameterizing module keycode1
+Progress: Adding keycode2 [altera_avalon_pio 14.0]
+Progress: Parameterizing module keycode2
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_system.nios2_qsys_0: Please note that for early evaluation, preview versions of new Nios II Gen2 Processors are available with this release.
+Info: nios_system.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_system.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: nios_system.otg_hpi_data: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: nios_system.sdram_pll: sdram_pll.areset_conduit must be exported, or connected to a matching conduit.
+Warning: nios_system.sdram_pll: sdram_pll.locked_conduit must be exported, or connected to a matching conduit.
+Warning: nios_system.sdram_pll: sdram_pll.phasedone_conduit must be exported, or connected to a matching conduit.
+Warning: nios_system.keycode1: keycode1.external_connection must be exported, or connected to a matching conduit.
+Warning: nios_system.keycode2: keycode2.external_connection must be exported, or connected to a matching conduit.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=F:\quartus2\Lab8_provided --output-directory=F:\quartus2\Lab8_provided\nios_system\synthesis --file-set=QUARTUS_SYNTH --report-file=html:F:\quartus2\Lab8_provided\nios_system\nios_system.html --report-file=sopcinfo:F:\quartus2\Lab8_provided\nios_system.sopcinfo --report-file=cmp:F:\quartus2\Lab8_provided\nios_system\nios_system.cmp --report-file=qip:F:\quartus2\Lab8_provided\nios_system\synthesis\nios_system.qip --report-file=svd:F:\quartus2\Lab8_provided\nios_system\synthesis\nios_system.svd --report-file=regmap:F:\quartus2\Lab8_provided\nios_system\synthesis\nios_system.regmap --report-file=xml:F:\quartus2\Lab8_provided\nios_system\nios_system.xml --report-file=debuginfo:F:\quartus2\Lab8_provided\nios_system\synthesis\nios_system.debuginfo --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE115F29C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=F:\quartus2\Lab8_provided\nios_system.qsys --language=VERILOG
+Progress: Loading Lab8_provided/nios_system.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 14.0]
+Progress: Parameterizing module clk_0
+Progress: Adding nios2_qsys_0 [altera_nios2_qsys 14.0]
+Progress: Parameterizing module nios2_qsys_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 14.0]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding sdram [altera_avalon_new_sdram_controller 14.0]
+Progress: Parameterizing module sdram
+Progress: Adding sdram_pll [altpll 14.0]
+Progress: Parameterizing module sdram_pll
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 14.0]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 14.0]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding keycode0 [altera_avalon_pio 14.0]
+Progress: Parameterizing module keycode0
+Progress: Adding otg_hpi_cs [altera_avalon_pio 14.0]
+Progress: Parameterizing module otg_hpi_cs
+Progress: Adding otg_hpi_address [altera_avalon_pio 14.0]
+Progress: Parameterizing module otg_hpi_address
+Progress: Adding otg_hpi_data [altera_avalon_pio 14.0]
+Progress: Parameterizing module otg_hpi_data
+Progress: Adding otg_hpi_r [altera_avalon_pio 14.0]
+Progress: Parameterizing module otg_hpi_r
+Progress: Adding otg_hpi_w [altera_avalon_pio 14.0]
+Progress: Parameterizing module otg_hpi_w
+Progress: Adding keycode1 [altera_avalon_pio 14.0]
+Progress: Parameterizing module keycode1
+Progress: Adding keycode2 [altera_avalon_pio 14.0]
+Progress: Parameterizing module keycode2
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_system.nios2_qsys_0: Please note that for early evaluation, preview versions of new Nios II Gen2 Processors are available with this release.
+Info: nios_system.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_system.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: nios_system.otg_hpi_data: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Warning: nios_system.sdram_pll: sdram_pll.areset_conduit must be exported, or connected to a matching conduit.
+Warning: nios_system.sdram_pll: sdram_pll.locked_conduit must be exported, or connected to a matching conduit.
+Warning: nios_system.sdram_pll: sdram_pll.phasedone_conduit must be exported, or connected to a matching conduit.
+Warning: nios_system.keycode1: keycode1.external_connection must be exported, or connected to a matching conduit.
+Warning: nios_system.keycode2: keycode2.external_connection must be exported, or connected to a matching conduit.
+Info: nios_system: Generating nios_system "nios_system" for QUARTUS_SYNTH
+Info: Inserting clock-crossing logic between cmd_demux.src3 and cmd_mux_003.sink0
+Info: Inserting clock-crossing logic between cmd_demux_001.src3 and cmd_mux_003.sink1
+Info: Inserting clock-crossing logic between rsp_demux_003.src0 and rsp_mux.sink3
+Info: Inserting clock-crossing logic between rsp_demux_003.src1 and rsp_mux_001.sink3
+Info: nios2_qsys_0: Starting RTL generation for module 'nios_system_nios2_qsys_0'
+Info: nios2_qsys_0:   Generation command is [exec F:/quartus2/quartus/bin64/eperlcmd.exe -I F:/quartus2/quartus/bin64/perl/lib -I F:/quartus2/quartus/sopc_builder/bin/europa -I F:/quartus2/quartus/sopc_builder/bin/perl_lib -I F:/quartus2/quartus/sopc_builder/bin -I F:/quartus2/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I F:/quartus2/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I F:/quartus2/quartus/../ip/altera/nios2_ip/altera_nios2 -I F:/quartus2/quartus/../ip/altera/nios2_ip/altera_nios2 -- F:/quartus2/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=nios_system_nios2_qsys_0 --dir=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0001_nios2_qsys_0_gen/ --quartus_bindir=F:/quartus2/quartus/bin64 --verilog --config=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0001_nios2_qsys_0_gen//nios_system_nios2_qsys_0_processor_configuration.pl  --do_build_sim=0  ]
+Info: nios2_qsys_0: # 2015.12.04 18:43:35 (*) Starting Nios II generation
+Info: nios2_qsys_0: # 2015.12.04 18:43:35 (*)   Checking for plaintext license.
+Info: nios2_qsys_0: # 2015.12.04 18:43:38 (*)   Couldn't query license setup in Quartus directory F:/quartus2/quartus/bin64
+Info: nios2_qsys_0: # 2015.12.04 18:43:38 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: nios2_qsys_0: # 2015.12.04 18:43:38 (*)   LM_LICENSE_FILE environment variable is empty
+Info: nios2_qsys_0: # 2015.12.04 18:43:38 (*)   Plaintext license not found.
+Info: nios2_qsys_0: # 2015.12.04 18:43:38 (*)   No license required to generate encrypted Nios II/e.
+Info: nios2_qsys_0: # 2015.12.04 18:43:38 (*)   Elaborating CPU configuration settings
+Info: nios2_qsys_0: # 2015.12.04 18:43:38 (*)   Creating all objects for CPU
+Info: nios2_qsys_0: # 2015.12.04 18:43:40 (*)   Generating RTL from CPU objects
+Info: nios2_qsys_0: # 2015.12.04 18:43:40 (*)   Creating plain-text RTL
+Info: nios2_qsys_0: # 2015.12.04 18:43:42 (*) Done Nios II generation
+Info: nios2_qsys_0: Done RTL generation for module 'nios_system_nios2_qsys_0'
+Info: nios2_qsys_0: "nios_system" instantiated altera_nios2_qsys "nios2_qsys_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'nios_system_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec F:/quartus2/quartus/bin64/perl/bin/perl.exe -I F:/quartus2/quartus/bin64/perl/lib -I F:/quartus2/quartus/sopc_builder/bin/europa -I F:/quartus2/quartus/sopc_builder/bin/perl_lib -I F:/quartus2/quartus/sopc_builder/bin -I F:/quartus2/quartus/../ip/altera/sopc_builder_ip/common -I F:/quartus2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- F:/quartus2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_system_onchip_memory2_0 --dir=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0002_onchip_memory2_0_gen/ --quartus_dir=F:/quartus2/quartus --verilog --config=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0002_onchip_memory2_0_gen//nios_system_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'nios_system_onchip_memory2_0'
+Info: onchip_memory2_0: "nios_system" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: sdram: Starting RTL generation for module 'nios_system_sdram'
+Info: sdram:   Generation command is [exec F:/quartus2/quartus/bin64/perl/bin/perl.exe -I F:/quartus2/quartus/bin64/perl/lib -I F:/quartus2/quartus/sopc_builder/bin/europa -I F:/quartus2/quartus/sopc_builder/bin/perl_lib -I F:/quartus2/quartus/sopc_builder/bin -I F:/quartus2/quartus/../ip/altera/sopc_builder_ip/common -I F:/quartus2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- F:/quartus2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=nios_system_sdram --dir=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0003_sdram_gen/ --quartus_dir=F:/quartus2/quartus --verilog --config=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0003_sdram_gen//nios_system_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram: Done RTL generation for module 'nios_system_sdram'
+Info: sdram: "nios_system" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: sdram_pll: "nios_system" instantiated altpll "sdram_pll"
+Info: sysid_qsys_0: "nios_system" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
+Info: jtag_uart_0: Starting RTL generation for module 'nios_system_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec F:/quartus2/quartus/bin64/perl/bin/perl.exe -I F:/quartus2/quartus/bin64/perl/lib -I F:/quartus2/quartus/sopc_builder/bin/europa -I F:/quartus2/quartus/sopc_builder/bin/perl_lib -I F:/quartus2/quartus/sopc_builder/bin -I F:/quartus2/quartus/../ip/altera/sopc_builder_ip/common -I F:/quartus2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- F:/quartus2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios_system_jtag_uart_0 --dir=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0007_jtag_uart_0_gen/ --quartus_dir=F:/quartus2/quartus --verilog --config=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0007_jtag_uart_0_gen//nios_system_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'nios_system_jtag_uart_0'
+Info: jtag_uart_0: "nios_system" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: keycode0: Starting RTL generation for module 'nios_system_keycode0'
+Info: keycode0:   Generation command is [exec F:/quartus2/quartus/bin64/perl/bin/perl.exe -I F:/quartus2/quartus/bin64/perl/lib -I F:/quartus2/quartus/sopc_builder/bin/europa -I F:/quartus2/quartus/sopc_builder/bin/perl_lib -I F:/quartus2/quartus/sopc_builder/bin -I F:/quartus2/quartus/../ip/altera/sopc_builder_ip/common -I F:/quartus2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- F:/quartus2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_system_keycode0 --dir=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0008_keycode0_gen/ --quartus_dir=F:/quartus2/quartus --verilog --config=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0008_keycode0_gen//nios_system_keycode0_component_configuration.pl  --do_build_sim=0  ]
+Info: keycode0: Done RTL generation for module 'nios_system_keycode0'
+Info: keycode0: "nios_system" instantiated altera_avalon_pio "keycode0"
+Info: otg_hpi_cs: Starting RTL generation for module 'nios_system_otg_hpi_cs'
+Info: otg_hpi_cs:   Generation command is [exec F:/quartus2/quartus/bin64/perl/bin/perl.exe -I F:/quartus2/quartus/bin64/perl/lib -I F:/quartus2/quartus/sopc_builder/bin/europa -I F:/quartus2/quartus/sopc_builder/bin/perl_lib -I F:/quartus2/quartus/sopc_builder/bin -I F:/quartus2/quartus/../ip/altera/sopc_builder_ip/common -I F:/quartus2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- F:/quartus2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_system_otg_hpi_cs --dir=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0009_otg_hpi_cs_gen/ --quartus_dir=F:/quartus2/quartus --verilog --config=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0009_otg_hpi_cs_gen//nios_system_otg_hpi_cs_component_configuration.pl  --do_build_sim=0  ]
+Info: otg_hpi_cs: Done RTL generation for module 'nios_system_otg_hpi_cs'
+Info: otg_hpi_cs: "nios_system" instantiated altera_avalon_pio "otg_hpi_cs"
+Info: otg_hpi_address: Starting RTL generation for module 'nios_system_otg_hpi_address'
+Info: otg_hpi_address:   Generation command is [exec F:/quartus2/quartus/bin64/perl/bin/perl.exe -I F:/quartus2/quartus/bin64/perl/lib -I F:/quartus2/quartus/sopc_builder/bin/europa -I F:/quartus2/quartus/sopc_builder/bin/perl_lib -I F:/quartus2/quartus/sopc_builder/bin -I F:/quartus2/quartus/../ip/altera/sopc_builder_ip/common -I F:/quartus2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- F:/quartus2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_system_otg_hpi_address --dir=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0010_otg_hpi_address_gen/ --quartus_dir=F:/quartus2/quartus --verilog --config=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0010_otg_hpi_address_gen//nios_system_otg_hpi_address_component_configuration.pl  --do_build_sim=0  ]
+Info: otg_hpi_address: Done RTL generation for module 'nios_system_otg_hpi_address'
+Info: otg_hpi_address: "nios_system" instantiated altera_avalon_pio "otg_hpi_address"
+Info: otg_hpi_data: Starting RTL generation for module 'nios_system_otg_hpi_data'
+Info: otg_hpi_data:   Generation command is [exec F:/quartus2/quartus/bin64/perl/bin/perl.exe -I F:/quartus2/quartus/bin64/perl/lib -I F:/quartus2/quartus/sopc_builder/bin/europa -I F:/quartus2/quartus/sopc_builder/bin/perl_lib -I F:/quartus2/quartus/sopc_builder/bin -I F:/quartus2/quartus/../ip/altera/sopc_builder_ip/common -I F:/quartus2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- F:/quartus2/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_system_otg_hpi_data --dir=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0011_otg_hpi_data_gen/ --quartus_dir=F:/quartus2/quartus --verilog --config=C:/Users/lixiang/AppData/Local/Temp/alt6774_154481029304637406.dir/0011_otg_hpi_data_gen//nios_system_otg_hpi_data_component_configuration.pl  --do_build_sim=0  ]
+Info: otg_hpi_data: Done RTL generation for module 'nios_system_otg_hpi_data'
+Info: otg_hpi_data: "nios_system" instantiated altera_avalon_pio "otg_hpi_data"
+Info: mm_interconnect_0: "nios_system" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "nios_system" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "nios_system" instantiated altera_reset_controller "rst_controller"
+Info: nios2_qsys_0_instruction_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_qsys_0_instruction_master_translator"
+Info: nios2_qsys_0_jtag_debug_module_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "nios2_qsys_0_jtag_debug_module_translator"
+Info: nios2_qsys_0_instruction_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_qsys_0_instruction_master_agent"
+Info: nios2_qsys_0_jtag_debug_module_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "nios2_qsys_0_jtag_debug_module_agent"
+Info: nios2_qsys_0_jtag_debug_module_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "nios2_qsys_0_jtag_debug_module_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_007: "mm_interconnect_0" instantiated altera_merlin_router "router_007"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_005: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_005"
+Info: Reusing file F:/quartus2/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_demux_005: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux_005"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file F:/quartus2/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file F:/quartus2/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: crosser: "mm_interconnect_0" instantiated altera_avalon_st_handshake_clock_crosser "crosser"
+Info: nios_system: Done "nios_system" with 32 modules, 48 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

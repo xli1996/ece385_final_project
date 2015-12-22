@@ -1,0 +1,19 @@
+Warning (10268): Verilog HDL information at player1.sv(52): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at player1.sv(11): object "player_x" differs only in case from object "player_X" in the same scope
+Info (10281): Verilog HDL Declaration information at player1.sv(11): object "player_y" differs only in case from object "player_Y" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router_007.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router_007.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router_002.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router_002.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router_001.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router_001.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router.sv(48): object "DEFAULT_WR_CHANNEL" differs only in case from object "default_wr_channel" in the same scope
+Info (10281): Verilog HDL Declaration information at nios_system_mm_interconnect_0_router.sv(49): object "DEFAULT_RD_CHANNEL" differs only in case from object "default_rd_channel" in the same scope
+Warning (10268): Verilog HDL information at Color_Mapper.sv(242): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at player2.sv(52): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at player2.sv(11): object "player_x" differs only in case from object "player_X" in the same scope
+Info (10281): Verilog HDL Declaration information at player2.sv(11): object "player_y" differs only in case from object "player_Y" in the same scope
+Info (10281): Verilog HDL Declaration information at ball1.sv(8): object "ball_x" differs only in case from object "ball_X" in the same scope
+Info (10281): Verilog HDL Declaration information at ball1.sv(8): object "ball_y" differs only in case from object "ball_Y" in the same scope
+Info (10281): Verilog HDL Declaration information at ball2.sv(8): object "ball_x" differs only in case from object "ball_X" in the same scope
+Info (10281): Verilog HDL Declaration information at ball2.sv(8): object "ball_y" differs only in case from object "ball_Y" in the same scope

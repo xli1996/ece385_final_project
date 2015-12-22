@@ -1,0 +1,21 @@
+module damage_handler (
+	input face1, face2,
+	input [9:0] player_x1, player_x2,
+	input [9:0] player_y1, player_y2,
+	input [8:0] action1, action2,
+	input hit1, hit2,
+	output logic [9:0] player_dmg1, player_dmg2
+);
+
+always_comb begin
+	if (hit2) begin
+		if ((action >= 96 && action <= 101) || action >= 108 && action <= 113 || action >= 120 && action <= 125) begin
+			if (facing == 1 && player_x1 >= player_x2 + 5 && player_x1 < player_x2 + 35)
+				player_dmg2 = 10;
+			else if (facing == 0 && player_x1 + 5 <= player_x2 && player_x1 + 35 > player_x2)
+				player_dmg2 = 10;
+		end
+	end
+end
+
+endmodule 

@@ -1,0 +1,162 @@
+module player(
+input Reset, frame_clk,
+input [15:0] keycode0, keycode1, keycode2,
+output logic face,
+output logic [9:0] player_h, player_w, player_x, player_y,
+output logic [8:0] action
+);
+
+logic [9:0] player_H, player_W, player_X, player_Y, player_xm, player_ym;
+logic [8:0] next_action;
+logic jump;
+logic keysdown [3];
+parameter [9:0] player_ycenter=300;
+parameter [9:0] player_xcenter=80;
+parameter [9:0] player_xstep = 2;
+
+assign player_H = 80;
+assign player_W = 80;
+assign keysdown[0] = (keycode0[15:8] == 80 || keycode0[7:0] == 80 || keycode1[15:8] == 80 || keycode1[7:0] == 80 || keycode2[15:8] == 80 || keycode2[7:0] == 80);
+assign keysdown[1] = (keycode0[15:8] == 79 || keycode0[7:0] == 79 || keycode1[15:8] == 79 || keycode1[7:0] == 79 || keycode2[15:8] == 79 || keycode2[7:0] == 79);
+assign keysdown[2] = (keycode0[15:8] == 82 || keycode0[7:0] == 82 || keycode1[15:8] == 82 || keycode1[7:0] == 82 || keycode2[15:8] == 82 || keycode2[7:0] == 82);
+
+always_comb begin
+	next_action = 0;
+
+	if (action >= 24 && action <= 70)
+		next_action = action + 1;
+
+	if ((keysdown[0] || keysdown[1]) && jump == 0) begin
+		if ((keysdown[0] && keysdown[1]) || action == 23)
+			next_action = 0;
+		else if (action <= 23)
+			next_action = action + 1;
+	end
+		
+	if (keysdown[2] && jump == 0)
+			next_action = 24;
+end
+
+always_ff @ (posedge Reset or posedge frame_clk )
+	begin: player_cloud
+        if (Reset)  // Asynchronous Reset
+			begin 
+				player_ym <= 10'd0; //cloud_Y_Step;
+				player_xm <= 10'd0; //cloud_X_Step;
+				player_Y <= player_ycenter;
+				player_X <= player_xcenter;
+				action <= 0;
+				face <= 0;
+				jump <= 0;
+			end
+			else begin
+				player_xm <= 0;
+				player_ym <= 0;
+				
+				if (keysdown[0] && keysdown[1])
+					player_xm <= 0;
+				else begin
+					if (keysdown[0] && player_X > 3) begin
+						player_xm <= -player_xstep;
+						face <= 1;
+					end
+					
+					if (keysdown[1] && player_X < 557) begin
+						player_xm <= player_xstep;
+						face <= 0;
+					end
+				end
+				
+				if (keysdown[2])
+					jump <= 1;
+				
+				player_X <= (player_X+player_xm);
+				
+				case (action)
+					36 : begin
+						player_ym <= -25;
+					end
+					37 : begin
+						player_ym <= -25;
+					end
+					38 : begin
+						player_ym <= -16;
+					end
+					39 : begin
+						player_ym <= -16;
+					end
+					40 : begin
+						player_ym <= -10;
+					end
+					41 : begin
+						player_ym <= -10;
+					end
+					42 : begin
+						player_ym <= -6;
+					end
+					43 : begin
+						player_ym <= -6;
+					end
+					44 : begin
+						player_ym <= -4;
+					end
+					45 : begin
+						player_ym <= -4;
+					end
+					46 : begin
+						player_ym <= -1;
+					end
+					47 : begin
+						player_ym <= -1;
+					end
+					48 : begin
+						player_ym <= 1;
+					end
+					49 : begin
+						player_ym <= 1;
+					end
+					50 : begin
+						player_ym <= 4;
+					end
+					51 : begin
+						player_ym <= 4;
+					end
+					52 : begin
+						player_ym <= 6;
+					end
+					53 : begin
+						player_ym <= 6;
+					end
+					54 : begin
+						player_ym <= 10;
+					end
+					55 : begin
+						player_ym <= 10;
+					end
+					56 : begin
+						player_ym <= 16;
+					end
+					57 : begin
+						player_ym <= 16;
+					end
+					58 : begin
+						player_ym <= 25;
+					end
+					59 : begin
+						player_ym <= 25;
+					end
+					71 : begin
+						jump <= 0;
+					end
+				endcase
+				
+				player_Y <= (player_Y+player_ym);
+				
+				action <= next_action;
+			end
+	end
+assign player_h = player_H;
+assign player_w = player_W;
+assign player_x = player_X;
+assign player_y = player_Y;
+endmodule

@@ -1,0 +1,8 @@
+moduel hp(
+output logic hp_w, hp_x, hp_y, hp_h
+);
+
+assign hp_w = 150;
+assign hp_h = 20;
+assign hp_x = 40;
+assign hp_y = 20;

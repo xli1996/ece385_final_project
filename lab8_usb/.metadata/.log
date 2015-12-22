@@ -1,0 +1,2073 @@
+!SESSION 2015-10-19 18:53:17.153 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-10-19 18:56:52.532
+!MESSAGE Indexed 'usb_kb' (3 sources, 18 headers) in 0.86 sec: 68 declarations; 1,121 references; 31 unresolved inclusions; 0 syntax errors; 38 unresolved names (3.10%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-10-19 18:58:12.091
+!MESSAGE Indexed 'usb_kb_bsp' (79 sources, 57 headers) in 1.19 sec: 930 declarations; 2,210 references; 113 unresolved inclusions; 5 syntax errors; 194 unresolved names (5.82%)
+
+!ENTRY com.altera.sbtgui.core 4 0 2015-10-19 18:58:43.396
+!MESSAGE Error executing 'nios2-bsp-generate-files --bsp-dir . --settings settings.bsp', unexpected return code 1.
+
+Error message:
+
+SEVERE: File not found: ..\..\nios_system.sopcinfo
+SEVERE: File not found: ..\..\nios_system.sopcinfo
+SEVERE: nios2-bsp-generate-files failed.
+
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 19:19:23.222
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 19:19:29.339
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 19:53:42.078
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 19:53:44.333
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 19:53:49.504
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:16:58.421
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:17:00.686
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:17:05.227
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:33:43.638
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:33:51.345
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:51:22.322
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:51:29.385
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-19 20:51:40.114
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xa0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-19 20:51:40.117
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:52:12.110
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:52:18.871
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-19 20:52:29.450
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xa0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-19 20:52:29.452
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:53:53.805
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:54:00.530
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-19 20:54:11.153
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xa0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-19 20:54:11.156
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:55:27.282
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:55:34.075
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-19 20:55:44.672
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xa0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-19 20:55:44.675
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:56:51.496
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:56:58.130
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-19 20:57:08.815
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xa0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-19 20:57:08.819
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:58:56.246
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 20:59:00.426
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:05:29.479
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:05:34.500
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:12:01.121
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:12:05.393
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:12:46.581
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:12:50.746
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:19:07.210
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:19:11.457
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:20:11.099
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:20:17.837
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:26:28.492
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:26:35.265
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:28:31.865
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:28:38.588
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:29:20.368
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:29:27.088
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+!SESSION 2015-10-19 21:58:01.845 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:59:40.641
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 21:59:44.913
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:00:53.772
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:00:56.638
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:01:00.677
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:06:33.477
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:06:35.676
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:06:39.792
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:07:29.429
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:07:31.502
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:07:35.619
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:10:35.737
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:10:39.844
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:11:19.700
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:11:21.739
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:11:25.799
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:15:42.658
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:15:44.682
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-19 22:15:49.593
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+!SESSION 2015-10-20 18:18:54.907 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 18:21:08.845
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 18:21:23.625
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 18:24:22.194
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 18:24:33.435
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 18:37:45.927
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 18:37:50.780
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 18:38:01.876
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:10:18.811
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:10:31.791
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-20 19:10:53.027
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xa0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-20 19:10:53.034
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY org.eclipse.ui 4 0 2015-10-20 19:11:35.450
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Control.isVisible(Control.java:1926)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.verifyName(LaunchConfigurationTabGroupViewer.java:1237)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.canLaunch(LaunchConfigurationTabGroupViewer.java:1072)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.updateButtons(LaunchConfigurationsDialog.java:1517)
+	at org.eclipse.debug.ui.AbstractLaunchConfigurationTab.updateLaunchConfigurationDialog(AbstractLaunchConfigurationTab.java:107)
+	at com.altera.sbtgui.launch.AbstractEmbeddedAwtLaunchConfigurationTab.access$000(AbstractEmbeddedAwtLaunchConfigurationTab.java:22)
+	at com.altera.sbtgui.launch.AbstractEmbeddedAwtLaunchConfigurationTab$1$1.run(AbstractEmbeddedAwtLaunchConfigurationTab.java:77)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	... 23 more
+
+!ENTRY org.eclipse.ui 4 0 2015-10-20 19:11:35.451
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (org.eclipse.swt.SWTException: Widget is disposed)
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4282)
+	at org.eclipse.swt.SWT.error(SWT.java:4197)
+	at org.eclipse.swt.SWT.error(SWT.java:4168)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:468)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:340)
+	at org.eclipse.swt.widgets.Control.isVisible(Control.java:1926)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.verifyName(LaunchConfigurationTabGroupViewer.java:1237)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationTabGroupViewer.canLaunch(LaunchConfigurationTabGroupViewer.java:1072)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsDialog.updateButtons(LaunchConfigurationsDialog.java:1517)
+	at org.eclipse.debug.ui.AbstractLaunchConfigurationTab.updateLaunchConfigurationDialog(AbstractLaunchConfigurationTab.java:107)
+	at com.altera.sbtgui.launch.AbstractEmbeddedAwtLaunchConfigurationTab.access$000(AbstractEmbeddedAwtLaunchConfigurationTab.java:22)
+	at com.altera.sbtgui.launch.AbstractEmbeddedAwtLaunchConfigurationTab$1$1.run(AbstractEmbeddedAwtLaunchConfigurationTab.java:77)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	... 23 more
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:11:57.507
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:12:08.916
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:15:24.175
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:15:36.428
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:25:20.161
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:25:30.532
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:37:15.846
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:37:27.024
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:40:00.118
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:40:08.438
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:42:05.882
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:42:17.722
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:46:06.162
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:46:17.468
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:50:41.694
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:50:53.423
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:55:32.429
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:55:44.347
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:58:29.071
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 19:58:40.480
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:07:04.254
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:07:15.263
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:11:12.584
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:11:24.058
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:21:43.654
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:21:56.465
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:36:53.103
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:36:55.837
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:37:01.226
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:38:03.461
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:38:08.309
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:44:35.456
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:44:40.576
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:51:42.339
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 20:51:47.377
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 21:16:32.668
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 21:16:44.557
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 21:31:53.225
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 21:32:03.081
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-20 21:32:15.177
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xa0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-20 21:32:15.178
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 21:32:57.395
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 21:33:01.593
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 22:00:03.799
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 22:00:10.578
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 22:27:17.513
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 22:27:24.818
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 22:36:59.741
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 22:37:04.184
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 22:44:32.387
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 22:44:36.777
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 22:57:19.683
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 22:57:26.349
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-20 22:57:36.650
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xa0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-20 22:57:36.653
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 22:58:30.369
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 22:58:35.488
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 23:04:03.781
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 23:04:08.022
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 23:09:52.961
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 23:10:00.054
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-20 23:10:11.334
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xa0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-20 23:10:11.335
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 23:13:03.931
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 23:13:08.128
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 23:43:21.802
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 23:43:27.127
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 23:51:32.037
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xa0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-20 23:51:36.266
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xa0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:11:59.728
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:12:04.004
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:14:32.368
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:14:37.796
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:16:41.159
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:16:45.409
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:20:10.426
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:20:14.770
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:24:12.506
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:24:19.231
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:27:09.661
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:27:13.976
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:29:03.072
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:29:07.400
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:48:38.019
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:48:47.091
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-21 00:48:58.242
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-10-21 00:48:58.245
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:49:33.766
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 00:49:37.910
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 01:02:34.815
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 01:02:38.980
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 09:03:26.198
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 09:03:29.568
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-21 09:03:41.010
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+!SESSION 2015-10-27 21:14:06.817 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-27 21:15:01.411
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-10-27 21:15:04.519
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+!SESSION 2015-11-15 13:14:50.129 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-11-15 13:32:03.430
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-11-15 13:32:08.462
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-11-15 14:32:12.293
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-11-15 14:32:16.316
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+!SESSION 2015-11-18 10:26:22.320 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-11-18 10:43:57.587
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-11-18 10:44:04.551
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+!SESSION 2015-12-02 21:55:01.230 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 21:57:51.612
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 21:58:08.053
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0xb0] return code: 254
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 21:58:08.121
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 21:58:24.502
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 254
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 21:58:24.507
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:00:34.359
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb0 --id=0x0 --timestamp=1447616585]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 22:00:52.988
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0xb0, --id=0x0, --timestamp=1447616585] return code: 254
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:00:53.055
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb0 --id=0x0 --timestamp=1447616585 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 22:01:10.602
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb0, --id=0x0, --timestamp=1447616585, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 254
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 22:01:10.621
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:03:52.935
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb0 --id=0x0 --timestamp=1447616585]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 22:04:27.911
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0xb0, --id=0x0, --timestamp=1447616585] return code: 254
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:04:27.965
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb0 --id=0x0 --timestamp=1447616585 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 22:04:45.437
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb0, --id=0x0, --timestamp=1447616585, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 254
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 22:04:45.440
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:07:23.340
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb0 --id=0x0 --timestamp=1447616585]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 22:07:39.744
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0xb0, --id=0x0, --timestamp=1447616585] return code: 254
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:07:39.802
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb0 --id=0x0 --timestamp=1447616585 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 22:07:57.287
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb0, --id=0x0, --timestamp=1447616585, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 254
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 22:07:57.290
+!MESSAGE Downloading ELF Process failed
+!SESSION 2015-12-02 22:08:38.019 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:09:55.245
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb0 --id=0x0 --timestamp=1447616585]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 22:09:57.736
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0xb0, --id=0x0, --timestamp=1447616585] return code: 254
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:09:57.805
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb0 --id=0x0 --timestamp=1447616585 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 22:10:14.143
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --sidp=0xb0, --id=0x0, --timestamp=1447616585, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 254
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-02 22:10:14.147
+!MESSAGE Downloading ELF Process failed
+!SESSION 2015-12-02 22:13:01.940 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:13:34.520
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0xb0 --id=0x0 --timestamp=1447616585]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:13:37.015
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0xb0 --id=0x0 --timestamp=1447616585 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:15:09.853
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:15:12.893
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:22:20.877
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:22:22.805
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:30:46.218
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:30:48.088
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:43:44.192
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 22:43:46.098
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 23:00:20.306
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 23:00:23.121
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 23:11:43.304
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 23:11:45.348
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 23:13:10.479
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 23:13:12.653
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 23:14:47.885
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-02 23:14:49.816
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+!SESSION 2015-12-04 18:17:33.714 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 18:22:26.546
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 18:22:31.809
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 18:23:10.956
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 18:23:15.305
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 18:25:48.082
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 18:25:50.481
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 18:37:09.849
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 18:37:12.254
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 18:37:45.466
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 18:37:47.887
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 18:57:36.536
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 18:57:39.795
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 18:59:24.935
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 18:59:27.154
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 20:30:56.741
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 20:30:59.713
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 20:45:51.214
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 20:45:53.521
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 20:46:18.509
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 20:46:20.816
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 20:47:29.674
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 20:47:30.818
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 20:47:33.213
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 20:49:59.532
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 20:50:01.960
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 20:58:25.696
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 20:58:28.001
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 21:08:41.111
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 21:08:44.106
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 22:57:42.121
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 22:57:45.101
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 23:00:58.267
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-04 23:01:00.527
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+!SESSION 2015-12-06 19:51:23.847 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 20:00:54.891
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 20:00:58.408
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 20:01:48.412
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 20:01:50.642
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 21:17:30.990
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 21:17:35.609
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-06 21:17:43.644
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-06 21:17:43.655
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 21:18:03.040
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 21:18:07.723
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-06 21:18:15.373
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-06 21:18:15.374
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 21:19:14.510
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 21:19:16.669
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 21:31:11.491
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 21:31:13.665
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 21:34:38.530
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 21:34:41.101
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 21:35:06.573
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 21:35:08.951
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:01:03.635
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:01:06.636
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:06:17.537
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:06:22.213
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-06 22:06:29.970
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-06 22:06:29.973
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:07:19.258
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:07:21.530
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:17:44.194
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:17:48.900
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-06 22:17:56.591
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-06 22:17:56.594
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:18:25.979
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:18:30.800
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-06 22:18:38.500
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-06 22:18:38.502
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:19:09.577
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:19:11.852
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:32:42.731
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:32:48.376
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-06 22:32:56.357
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-06 22:32:56.360
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:33:33.076
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:33:37.841
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-06 22:33:45.525
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-06 22:33:45.526
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:34:14.233
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:34:16.503
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:47:42.001
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:47:44.215
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:59:52.826
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 22:59:55.045
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 23:05:30.084
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-06 23:05:33.383
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 00:18:35.895
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 00:18:39.342
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 00:37:02.115
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 00:37:04.796
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 00:37:28.237
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 00:37:30.997
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 00:45:40.163
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 00:45:45.061
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 00:45:52.838
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 00:45:52.841
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 00:46:36.054
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 00:46:38.246
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 01:40:14.284
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 01:40:19.748
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 01:40:27.584
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 01:40:27.586
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 01:41:10.238
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 01:41:14.974
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 01:41:22.996
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 01:41:23.003
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 01:42:14.312
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 01:42:19.074
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 01:42:26.752
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 01:42:26.755
+!MESSAGE Downloading ELF Process failed
+!SESSION 2015-12-07 01:44:23.397 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 01:45:06.703
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 01:45:11.641
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 01:45:19.674
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 01:45:19.678
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 01:46:17.149
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 01:46:22.183
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 01:46:29.658
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 01:46:29.661
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 01:47:27.878
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 01:47:29.743
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 01:57:51.714
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 01:57:53.595
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 02:14:44.291
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 02:14:49.055
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 02:14:56.521
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 02:14:56.523
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 02:15:22.786
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 02:15:24.683
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 03:01:10.114
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 03:01:12.777
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 03:20:07.287
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 03:20:09.246
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 13:23:33.859
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 13:23:37.570
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 18:45:07.527
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 18:45:11.048
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 19:10:54.490
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 19:10:58.890
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 19:11:06.181
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 19:11:06.184
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 19:11:32.541
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 19:11:34.576
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 19:34:52.722
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 19:34:58.154
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 19:35:05.871
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 19:35:05.874
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 19:35:31.745
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 19:35:33.747
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 20:31:43.008
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 20:31:46.027
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 20:45:54.514
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 20:45:58.898
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 20:46:06.173
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 20:46:06.175
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 20:46:36.157
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 20:46:38.058
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 20:47:40.054
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 20:47:44.487
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 20:47:51.732
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-07 20:47:51.735
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 20:48:14.285
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 20:48:16.230
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 21:04:32.236
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-07 21:04:35.332
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 01:51:15.268
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 01:51:40.470
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 01:52:33.913
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 01:52:37.839
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 01:53:31.741
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 01:53:34.917
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 01:53:38.789
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 01:54:29.905
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 01:54:33.315
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 01:54:37.155
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY org.eclipse.ui.workbench 4 0 2015-12-08 01:55:31.029
+!MESSAGE Widget disposed too early for part org.eclipse.ui.views.ContentOutline
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.ui.views.ContentOutline
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.jface.window.Window.close(Window.java:335)
+	at org.eclipse.jface.window.ApplicationWindow.close(ApplicationWindow.java:307)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1768)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:730)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:715)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.run(WorkbenchWindow.java:867)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:865)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$18.run(Workbench.java:1114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1111)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:1040)
+	at org.eclipse.ui.internal.Workbench$25.run(Workbench.java:1284)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1282)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1254)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:727)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:715)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.run(WorkbenchWindow.java:867)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:865)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:741)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:687)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:308)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1677)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4530)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2531)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY org.eclipse.ui.workbench 4 0 2015-12-08 01:55:31.033
+!MESSAGE Widget disposed too early for part org.eclipse.ui.navigator.ProjectExplorer
+!STACK 0
+java.lang.RuntimeException: Widget disposed too early for part org.eclipse.ui.navigator.ProjectExplorer
+	at org.eclipse.ui.internal.WorkbenchPartReference$1.widgetDisposed(WorkbenchPartReference.java:171)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:123)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1058)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:808)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Composite.releaseChildren(Composite.java:873)
+	at org.eclipse.swt.widgets.Canvas.releaseChildren(Canvas.java:167)
+	at org.eclipse.swt.widgets.Decorations.releaseChildren(Decorations.java:773)
+	at org.eclipse.swt.widgets.Shell.releaseChildren(Shell.java:1290)
+	at org.eclipse.swt.widgets.Widget.release(Widget.java:811)
+	at org.eclipse.swt.widgets.Widget.dispose(Widget.java:446)
+	at org.eclipse.swt.widgets.Decorations.dispose(Decorations.java:447)
+	at org.eclipse.swt.widgets.Shell.dispose(Shell.java:715)
+	at org.eclipse.jface.window.Window.close(Window.java:335)
+	at org.eclipse.jface.window.ApplicationWindow.close(ApplicationWindow.java:307)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1768)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:730)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:715)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.run(WorkbenchWindow.java:867)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:865)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$18.run(Workbench.java:1114)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1111)
+	at org.eclipse.ui.internal.Workbench.access$15(Workbench.java:1040)
+	at org.eclipse.ui.internal.Workbench$25.run(Workbench.java:1284)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1282)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1254)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:727)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:715)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.run(WorkbenchWindow.java:867)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:865)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:741)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:687)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:308)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1677)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4530)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2526)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4623)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:341)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1610)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2061)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4972)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2531)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3752)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1386)
+
+!ENTRY org.eclipse.ui 4 0 2015-12-08 01:55:38.724
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+!SESSION 2015-12-08 02:00:06.769 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 02:00:54.973
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 02:00:57.412
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 02:05:59.601
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 02:06:02.269
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 10:59:17.391
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 10:59:20.292
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 11:11:17.122
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 11:11:19.084
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 11:38:32.268
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 11:38:35.308
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 15:53:13.491
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 15:53:16.462
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 15:54:33.775
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 15:54:35.983
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 15:54:55.891
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 15:54:58.008
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 16:11:48.747
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 16:11:53.274
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-08 16:12:01.029
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-08 16:12:01.137
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 16:12:27.095
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 16:12:29.120
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 17:08:51.661
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 17:08:55.678
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 18:44:18.009
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 18:44:22.446
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 19:19:49.962
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 19:19:55.261
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 19:46:20.463
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 19:46:22.372
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 20:34:32.044
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 20:34:35.794
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 21:42:13.733
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 21:42:19.456
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-08 21:42:29.073
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-08 21:42:29.076
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 21:42:58.141
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 21:43:02.598
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-08 21:43:09.917
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-08 21:43:09.918
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 21:43:31.506
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 21:43:35.886
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-08 21:43:43.215
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-08 21:43:43.218
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 21:44:58.300
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 21:45:02.852
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-08 21:45:10.105
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-08 21:45:10.108
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 21:45:47.251
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 21:45:49.251
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 22:01:25.471
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 22:01:29.972
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-08 22:01:37.437
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-08 22:01:37.440
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 22:02:05.941
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 22:02:07.964
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 22:34:08.676
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 22:34:14.028
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-08 22:34:21.461
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-08 22:34:21.463
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 22:34:52.728
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 22:34:54.860
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 22:53:55.680
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 22:53:57.790
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 23:13:36.655
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 23:13:39.534
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 23:29:28.040
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 23:29:29.933
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 23:50:22.741
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 23:50:25.393
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 23:50:43.853
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-08 23:50:45.734
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 00:04:24.601
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 00:04:26.542
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 00:25:24.733
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 00:25:27.616
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 00:49:24.230
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 00:49:26.574
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 00:58:02.680
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 00:58:05.649
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 00:58:29.448
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 00:58:31.318
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 01:04:47.929
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 01:04:49.909
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 01:29:13.523
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 01:29:16.282
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 01:45:48.807
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 01:45:50.761
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 01:48:10.950
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 01:48:12.888
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 01:57:33.934
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 01:57:38.839
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-09 01:57:46.131
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-09 01:57:46.132
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 02:56:55.233
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 02:56:58.029
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 03:15:05.243
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 03:15:07.158
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 04:09:17.296
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 04:09:20.201
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 04:37:08.092
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 04:37:10.724
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 05:21:36.401
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 05:22:12.263
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-09 05:22:35.473
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-09 05:22:35.473
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY org.eclipse.ui 4 4 2015-12-09 05:23:13.311
+!MESSAGE An internal error has occurred.
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+	at org.eclipse.swt.graphics.TextLayout.itemize(TextLayout.java:2600)
+	at org.eclipse.swt.graphics.TextLayout.computeRuns(TextLayout.java:238)
+	at org.eclipse.swt.graphics.TextLayout.getLineCount(TextLayout.java:1853)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:981)
+	at org.eclipse.swt.custom.StyledTextRenderer.getTextLayout(StyledTextRenderer.java:720)
+	at org.eclipse.swt.custom.StyledTextRenderer.calculate(StyledTextRenderer.java:211)
+	at org.eclipse.swt.custom.StyledTextRenderer.calculateClientArea(StyledTextRenderer.java:229)
+	at org.eclipse.swt.custom.StyledText.resetCache(StyledText.java:7791)
+	at org.eclipse.swt.custom.StyledText.handleTextChanged(StyledText.java:6181)
+	at org.eclipse.swt.custom.StyledText$6.textChanged(StyledText.java:5615)
+	at org.eclipse.ui.internal.console.ConsoleDocumentAdapter.documentChanged(ConsoleDocumentAdapter.java:375)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged2(AbstractDocument.java:769)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:736)
+	at org.eclipse.jface.text.AbstractDocument.doFireDocumentChanged(AbstractDocument.java:721)
+	at org.eclipse.jface.text.AbstractDocument.fireDocumentChanged(AbstractDocument.java:796)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1191)
+	at org.eclipse.jface.text.AbstractDocument.replace(AbstractDocument.java:1210)
+	at org.eclipse.ui.internal.console.ConsoleDocument.replace(ConsoleDocument.java:82)
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.processQueue(IOConsolePartitioner.java:572)
+	at org.eclipse.ui.internal.console.IOConsolePartitioner$QueueProcessingJob.runInUIThread(IOConsolePartitioner.java:520)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2701)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2665)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2499)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:679)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:668)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-12-09 05:23:13.312
+!MESSAGE An internal error occurred during: "Debug Event Dispatch".
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+	at org.eclipse.ui.internal.console.ConsoleManager.getConsoles(ConsoleManager.java:258)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.getConsole(ProcessConsoleManager.java:110)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:94)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:81)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.launchRemoved(ProcessConsoleManager.java:74)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.run(LaunchManager.java:443)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchNotifier.notify(LaunchManager.java:428)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:990)
+	at org.eclipse.debug.internal.core.LaunchManager.removeLaunch(LaunchManager.java:2200)
+	at com.altera.sbtgui.launch.hardware.ui.ByteStreamConsoleView.terminateLaunch(ByteStreamConsoleView.java:221)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate$1.launchesTerminated(AbstractNios2CLaunchDelegate.java:60)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:313)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:266)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:1001)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:401)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:571)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1119)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1153)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:415)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 05:23:30.636
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 05:23:35.199
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-09 05:23:42.569
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-09 05:23:42.572
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 05:25:00.477
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 05:25:02.384
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 05:26:15.646
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 05:26:17.650
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 05:29:14.233
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 05:29:16.190
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 05:30:19.424
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 05:30:21.531
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-12-09 05:31:02.274
+!MESSAGE An internal error occurred during: "Searching for Binaries (usb_kb)".
+!STACK 0
+java.lang.OutOfMemoryError: Java heap space
+!SESSION 2015-12-09 05:33:15.114 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 05:33:43.844
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 05:33:46.131
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 07:34:42.924
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 07:34:49.304
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-09 07:34:57.824
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0xb0, /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2015-12-09 07:34:57.835
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 07:35:30.635
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 07:35:32.984
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 08:57:03.792
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 08:57:06.845
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 08:58:52.020
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 08:58:54.352
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 09:43:25.943
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0xb0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2015-12-09 09:43:28.316
+!MESSAGE Executing: [F:/quartus2/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0xb0 /cygdrive/f/quartus2/Lab8_provided/software/usb_kb/usb_kb.elf]

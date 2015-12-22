@@ -1,0 +1,11 @@
+module led_driver (
+	input [7:0] keycode,
+	output logic [3:0] leds;
+);
+
+assign leds[3] = keycode == 8'h1a;
+assign leds[2] = keycode == 8'h16;
+assign leds[1] = keycode == 8'h04;
+assign leds[0] = keycode == 8'h07;
+
+endmodule : led_driver
